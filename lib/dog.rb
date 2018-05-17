@@ -8,7 +8,7 @@ class Dog
   end
 
   def self.all
-
+    @@all.each do |item|
   end
 
   def self.clear_all
