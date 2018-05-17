@@ -16,7 +16,8 @@ class Dog
     @@all = []
   end
 
-  def self.new(name)
+  def new(name)
     @@all << name
+  end
 
 end
