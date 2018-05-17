@@ -10,6 +10,7 @@ class Dog
   def self.all
     @@all.each do |item|
       if item == @name
+        binding.pry
         puts item
       end
     end
