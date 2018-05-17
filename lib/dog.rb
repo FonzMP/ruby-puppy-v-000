@@ -1,3 +1,5 @@
+require 'pray'
+
 class Dog
 
   @@all = []
