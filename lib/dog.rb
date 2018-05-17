@@ -10,7 +10,7 @@ class Dog
   def self.all
     @@all.each do |key, value|
       if key == @name
-        puts value
+        puts value.name
       end
     end
   end
