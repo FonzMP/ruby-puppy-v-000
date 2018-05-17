@@ -8,11 +8,7 @@ class Dog
   end
 
   def self.all
-    @@all.each do |key, value|
-      if key == @name
-        puts value.name
-      end
-    end
+
   end
 
   def self.clear_all
