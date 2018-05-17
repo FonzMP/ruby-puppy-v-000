@@ -1,4 +1,4 @@
-require 'pray'
+require 'pry'
 
 class Dog
 
