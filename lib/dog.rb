@@ -9,7 +9,7 @@ class Dog
 
   def self.all
     @@all.each do |item|
-      puts item.to_s
+      puts item.@name.to_s
     end
   end
 
