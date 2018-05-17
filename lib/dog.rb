@@ -9,7 +9,9 @@ class Dog
 
   def self.all
     @@all.each do |key, value|
-      puts item.@name.to_s
+      if key == @name
+        puts value
+      end
     end
   end
 
