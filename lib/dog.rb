@@ -17,8 +17,4 @@ class Dog
     @@all = []
   end
 
-  def new(name)
-    @@all << name
-  end
-
 end
